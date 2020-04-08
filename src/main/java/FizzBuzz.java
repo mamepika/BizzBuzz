@@ -1,20 +1,16 @@
 package FizzBuzz;
 public class FizzBuzz {
-    public static String fizzBuzzOut(int i) {
-    String out;
+   public static String fizzBuzzOut(int i) {
         if (i % 3 == 0 && i % 5 == 0) {
-            out="FizzBuzz";
+            return "FizzBuzz";
         }
         else if (i % 3 == 0) {
-            out="Fizz";
+            return "Fizz";
         }
         else if (i % 5 == 0) {
-            out="Buzz";
+            return "Buzz";
         }
-        else {
-            out=String.valueOf(i);
-        }
-        return out;
+        return  String.valueOf(i);
     }
 
 }
